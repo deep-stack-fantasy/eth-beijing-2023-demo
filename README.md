@@ -2,15 +2,13 @@
 
 ## Demo files
 
-[Example sol file](https://124.220.19.52/test100.sol)
+[Remix IDE with DSF Solidity Compiler (solijson.js)](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/soljson.js).
 
-[DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js)
+[Example Solidity file](https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/test100.sol)
 
-Note: Please manually add the URL of [DSF Solidity Compiler (solijson.js)](https://124.220.19.52/soljson.js) in [Remix IDE](http://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=https://124.220.19.52/soljson.js).
+Note: The compiler file is ~8 MB, which requires a relatively long time to load. Please manually add the URL of [DSF Solidity Compiler (solijson.js)](https://ec2-35-88-251-70.us-west-2.compute.amazonaws.com:8899/eth-beijing-demo/soljson.js) in Remix IDE if there is a network failure.
 
 Note: our modified compiler is still struggling with `invalid jump` issue. Currently the compiler can successfully generate bytecodes, but these codes are unable to correctly run on our modified EVM. We are working on this issue.
-
-Note: these two links are temporarily hosted in Tencent cloud. It will be broken in the future and we plan to use github pages to serve the compiled `solijson.js` file.
 
 ## Video
 https://youtu.be/AiOXepNjYzw
